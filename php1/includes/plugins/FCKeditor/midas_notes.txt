@@ -1,0 +1,15 @@
+files modified:
+
+fckconfig.js
+var _FileBrowserLanguage        = 'php' ;
+var _QuickUploadLanguage        = 'php' ;
+
+------------------------------------------------------------------
+
+editor/filemanager/browser/default/connectors/php/config.php
+$Config['UserFilesPath'] = SITE_SUB_PATH.'/uploaded_files/fck/' ;
+
+------------------------------------------------------------------
+
+editor/filemanager/upload/php/config.php
+$Config['UserFilesPath'] = SITE_SUB_PATH.'/uploaded_files/fck/' ;
